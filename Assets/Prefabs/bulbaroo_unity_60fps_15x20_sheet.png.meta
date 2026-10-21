@@ -1,0 +1,7032 @@
+fileFormatVersion: 2
+guid: efbb34e7d8ffa0f4b846d22364ea770f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d586f6b80acb4aa15f330a7724c57
+      internalID: -221098433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa8ec38f902994a974990e9aedfc06
+      internalID: -2127196916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecab9bd075753f84dae58b8e5903009e
+      internalID: 61982997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11396d6ce887214fa935793b1fdf80e
+      internalID: 21911107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70abbc7e9430c5b438ad25bdc4ed1499
+      internalID: 1620013593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b2b29cdaad7640ab33673436b4dd2
+      internalID: 301542231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc253a55b7aeef40bd90413a94ed2d7
+      internalID: 1170126908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81f9e7e023695d4c93de54d622310da
+      internalID: -1135777162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986ca3f04d1af7a4d86ed54c4d329539
+      internalID: 22895732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd81a7ca382c6c459855a56994dc460
+      internalID: 2086489082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e363a46632f5043a24b625df62080a
+      internalID: -2112690368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01f1de4559c4bf4683364683a079ddb
+      internalID: 1996781610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f106cefcd6291d4d8d1a744b14302d8
+      internalID: -594736688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7857efb342628c40acf418fb52deb9c
+      internalID: 391859275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 6080
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc3d99e948c6494cbe2953d3bd78065
+      internalID: -1316565088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b661beda852029b469873f7665e64a2c
+      internalID: -1893921169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42688e54e2e7bec43b2460d34837e42c
+      internalID: 1829990921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0090af583257b7408d0adc1c9c9b4a7
+      internalID: -1721917278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1315b84f502ef2c4293973afcfe502d7
+      internalID: 1680061054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e696d87dc2a90f4abfffcc8969d3b61
+      internalID: -1384518572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fde407f13300a428206394da61e353
+      internalID: 210393317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d3b3c17abd85459d7eac6c08a5120
+      internalID: -1726410119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ff5b7454146ac45874eb37fd38a9de
+      internalID: -1086912031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86964197d442c44aa5c76dd0d88048c
+      internalID: 1151678092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eebe8f5d9bd6de4fb6f6e5443cbfcc7
+      internalID: -1997704320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fd672a3c28d34982a868deb8dd9da
+      internalID: -166760314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8dd45f03b9834ebd9cef7878ce8b1
+      internalID: -1191309132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ff56446a23974bbc64654d8490405
+      internalID: -503576948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34f9f9d695bd4545865bb8d8cbd502e
+      internalID: -491356072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5760
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ec83875fd43b409554199e57d73b5
+      internalID: 548451852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dd9ee893d34d04cb4ca17379900785
+      internalID: -2141063885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca07a5d30674e648a8761b38924579a
+      internalID: 941553489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b24730f16e6b148b401f83fbebca84
+      internalID: 1878543595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd244f72229af3c479c8cef4cd0ed49d
+      internalID: -1453753356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ad964ff4d03c04a9aea711d270fc04
+      internalID: 231699287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccf4510c029a2f499e0993c61613fec
+      internalID: 271317631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7022578c31cdbaf45b2553b011dd1942
+      internalID: 1763910248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5fbdb014d780a4db9d371231667297
+      internalID: -1830463522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34f64b0ada42de4aadf782490d14f47
+      internalID: 1660780614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12863a5c0aabc143a7cfd2928b7eee1
+      internalID: 247324463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c946f6ea04c494b8bf87065d8c88bb
+      internalID: -824922972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8690cfbb188172c4cbc1b66fcb991779
+      internalID: 798610249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f9ceb3275b5946bd0c0904cfccb83
+      internalID: -1953862798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b06ef29318dbc4e8b06fa8219c5b50
+      internalID: 768835951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5440
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0dac125b7ea1049a76e76f31acd8a4
+      internalID: 1441529969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f12dd9a2b7d554ebb73106d658e6e1
+      internalID: 1530614098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67872e09bc0198543b236b710a94c3f8
+      internalID: -945872326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf2c7f0677a014f830d1bf6bfb96c7
+      internalID: 472481044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174308bfb80f98847b653e2c99213375
+      internalID: 243895788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182782e7270d5b44a94c8803163cc82b
+      internalID: 225277876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb261bfe6e4e13542a4bdac6de5ffe98
+      internalID: -1421832041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab864de5033e8ad43a6d8e918bae11e3
+      internalID: 420029341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c3976a49a241746a49e687825c7eea
+      internalID: 61735644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19d772507f7e141be8739df3ce1dc3
+      internalID: 1804505597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970514451dfc0e40ae20cabfabad09d
+      internalID: 977145475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48230255f90044a48ae337baa4806fda
+      internalID: -808511343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262ffbb109cc824198bfbb30fbc6e5b
+      internalID: 860246733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4328bbb688493d546a2721a10c29513c
+      internalID: 891974674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1df93823ac4e44f8fa82012c485e3a
+      internalID: 265586381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5120
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642dfe8969acaa9429dd47c870db9b65
+      internalID: 1161535141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9285c173682e38849aaba3e5a4c2c616
+      internalID: 1061924876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac4631ddccb3942b7852451535093b
+      internalID: -1953206460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4bf2d740b7e34282158d6209d1a17
+      internalID: 1350134430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9d636ea4cc394ca1a33a59c31e574
+      internalID: -1538293451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7a8d784463977489e300a316e3678e
+      internalID: -311486107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c591b076c724445bfb40515820acac
+      internalID: -1806261320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a3ccfb4ab9e34fb73b55a5b9970a6
+      internalID: -1676544003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbe6d8fc4388e74aa400dec1b8ee080
+      internalID: -1992330823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61464d6f4a1f59d4b9b447ee0f59d2b2
+      internalID: -1691284315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08a00a53ad022a439e48b7b16372755
+      internalID: 2078045366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcfd00b74983a247a9248de01eb2ee5
+      internalID: 1050645872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f32d6c6c622fe499594911b04a4d3b
+      internalID: 1579385448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88f6cc657bb3224aa82aadb35d3d112
+      internalID: 2106400160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872dec2bd3738a4191d48c99032180f
+      internalID: -1413578412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4800
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87c7762314d7be43986d3562309c068
+      internalID: 2132488853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1a74deef54082419d1406d33761bf1
+      internalID: -94251415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e853b96c9dd8043a2f2c6da3103f5b
+      internalID: 161885213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05c1a2263f14bf4dbcab6031e8fcf6d
+      internalID: -1903480643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0620f23360d18f45ab94e5a9db6e047
+      internalID: 1831047522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc5b93eaa81d049860eabf0dfeef15
+      internalID: -1388019805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef74a132fef859240bea5bec9c91c11f
+      internalID: 1630489800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485a7cb3ac581c045a80ab2d6dde4f39
+      internalID: -1385858895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076d5b87293bc5146a915d9e18ec7fc8
+      internalID: -1479904531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf269bf4e69db445ad70ec3c12e0cf6
+      internalID: 1473614584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6e6511972d34458fe4fdb173fb27e
+      internalID: 1480980991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e0743610480f4e82da57968d3a860
+      internalID: 850907871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdde05f4920ed7541b11062fd4122c1e
+      internalID: -299853571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef39b1ec845d6844a1838a2f1dbbfbb
+      internalID: 917992673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4929a6901d4b545439ac9cfb6a5a4d5d
+      internalID: -1321440260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4480
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf03372816a40047888b32bc5fca882
+      internalID: 1562129580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72d1797bb74e8144a6c02c50e4818d3
+      internalID: -865646928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3e5833debe5ba45a4d567d65215816
+      internalID: 874592429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a103d64a47220a4c907c1b8faec0ad8
+      internalID: 1965877907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441645f35c2f66248a849a55389302e4
+      internalID: -1489495598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f429e54969ade4c86e59e417189612
+      internalID: -907253034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd87c9c018b030742ac53ad868de0638
+      internalID: -115689874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffadd89aaf220af4caa805e2e285c266
+      internalID: -1389321813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13dfb2cb45660428bae896d3904a5d
+      internalID: -1610367636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebfcde6ad60ab34d83ae7695bec1abf
+      internalID: 1000208825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b3415ec29d49458230d7e220d7ba3
+      internalID: -502104608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7893e5922d11b43921866459df740c
+      internalID: -930299959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7416658d83eb30947a0dfcd8a3c3a7a0
+      internalID: 2100169306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463378f0a57e6e246aea2280f77714a3
+      internalID: -1451114385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25786c98fbdb6f949ad40fd6268a6d13
+      internalID: 1126328378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4160
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14f23c80790b6949b29f68e2a34ec99
+      internalID: -1260409680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea513aa4b1b10694387f57df85f5e7d1
+      internalID: 1775322682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef5ccb4c14e9564b9076548ebae33cb
+      internalID: -767865497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab8326d4ab708940a77b415817d413c
+      internalID: -1290070756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26967fc202221f4490879aaaa7d2617
+      internalID: 1720668947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7fe0ac38284ec49a06b1398050a2a7
+      internalID: 638815555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ae49f9aabd7a41b47e23056325971
+      internalID: -1914881246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ecb77380a65c244853da1c001c5ad1
+      internalID: -1866828702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce0679e075e8d04f94a34aabd8f5043
+      internalID: 2128810976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f1f61d1e9cd064887bf45011ae32ca
+      internalID: -2093387371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4299b2ff20266564a951e9e136da811c
+      internalID: 1070329879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb8023c3569544e945cc93e6e3a949
+      internalID: -1092938435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a4f198ac1e6c845ae26861877eeb63
+      internalID: -259623457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62fce4e95674224fa12c48ac3a3b2f4
+      internalID: -50430751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a585f33a7541a948bb1167f4425e442
+      internalID: 1257962267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3840
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2227574a0feb243bd12f1138f26869
+      internalID: 1516942348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f261b2fbc3d04ab6c812dcee2680c
+      internalID: -1700384884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad893c58c2f27429a057f5cf67e527
+      internalID: 1795856857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2602623e11c144fa7f4ea6ca4780cb
+      internalID: -1760260020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70269ee8e640afa41afc7102e0234c4c
+      internalID: -1551322658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f557d8016224d4581b686abe558462
+      internalID: 356154605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fc2e059c1c5d5448a58d97f0c48089
+      internalID: 980612912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0de19163fe9714fbf0ed9bb5249ada
+      internalID: -1724951069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45911305b89f43b429668fed9b7e0f80
+      internalID: 1660619364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae6e6d9316b764caeae980683d169f
+      internalID: 117517989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a84ada1f1972ef43bcb5467e4af8131
+      internalID: 535062606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c425c303b3a73e40aee8c4fb08328c4
+      internalID: 712774531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e3a5b42092a4c41a495fe2004e517f
+      internalID: 1230187914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b3fff08a838ba4da7884263377f2d9
+      internalID: 933443050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc7e40f552a2274ba5fd941474b8c93
+      internalID: 1468148794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3520
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ba7d183f532848bc255dab9db0066
+      internalID: 1564687294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb9f6576988ff45b062c2d4cbd2cee
+      internalID: 2107185395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f877908607e05745976695cdc947125
+      internalID: -116217756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e33159de9e33439f536eca10c1dfa
+      internalID: -794321748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911f9c8b861a0042945b6c0959be645
+      internalID: -1386267068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3383a3e50e51ca543ac72a36dfa8bbd7
+      internalID: 2094792565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268fd8c0f4c40c04b9139c463b9a0649
+      internalID: 14663313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a97dbdf611484a97b3083bc851ccc
+      internalID: 1739542583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95ca35bafd9e824ab782d807f7be777
+      internalID: 353646345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d9f0b5d6f0b4a4baf3e40d89eec942
+      internalID: -984763847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8d93a0a968e6d4d9edae59c1424ea6
+      internalID: -1363789164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d87f7a6ea1f3c04797ff3bef611dd30
+      internalID: 1967522927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8b5857126fff4478453d8bb820781b
+      internalID: 1287759249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595448d450b29044e91f5b296ad8955c
+      internalID: -1333267340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d327fd3feda862c45ac37b97b7f75bce
+      internalID: 1781913053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3200
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b8a22857dc2643a959ea292ad9770
+      internalID: -1395932185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b847fcf877799054a83b7ab576185481
+      internalID: -441000051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057d2d036c0f93d4e9814c3cb601fd1a
+      internalID: 233335083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e1526a8d97f7544b730507bc56278c
+      internalID: -1027606504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81ce1e220534a4b948144053e6ae01
+      internalID: 113675104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eb54da0e08a944785ac64e2ff6caf0
+      internalID: -539248648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5bd1dfaf3333847b44bcd2f139468c
+      internalID: -733222454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c78d27aec4d5147829bad263b638a0
+      internalID: 2100717784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f403bbe83723f534eb1483aedc367fe4
+      internalID: 55822075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432534422d5b684f8b7fbbb17e1d635
+      internalID: -2090373018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae40f77dd2454441b7baac1b852ee18
+      internalID: 1703303128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1745d54237d4a41bf176e14ab72400
+      internalID: -608132844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83744f27c9a27a84da15537c1ac05477
+      internalID: -1385834204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ed312ed920a14e8a0d6ddb364a0d2
+      internalID: 1060011527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f210ff471ba880743be8b2b2e46d6df7
+      internalID: -31109365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2880
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e72f9c111762479d9ce279fe392c7
+      internalID: -1814473864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4166b81dd4521c4db7527720e10bf2c
+      internalID: -943156336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61db720f382260749ba8d5b24141cf8f
+      internalID: 1720362964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d97d7722ea746e4da83c94a0838f8e0
+      internalID: -458887181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb69ea46280f874ca4556d0aaf466e2
+      internalID: 1224649904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff25f89da4959c43a814b9685a4983b
+      internalID: 1268737039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d0d626b1c6e4a4bad01d3e9ed7ab7f
+      internalID: 1187632585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a18d88214466140a9cbdd9d4847f6c
+      internalID: -705388219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3fe2e14f0c27a4bb48ce488d037823
+      internalID: -1250505940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4004cf9618f1bb74f8746e0f6910b06e
+      internalID: 2095838128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658bc771eedc005479a0d60035983b2d
+      internalID: -987690776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27e0fbefbb3d5d478ab8a398a07e237
+      internalID: 597220686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfb0e8f51363744ba95d92caac4820d
+      internalID: -827444767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4cc03baef911449850ec5edf2f3406
+      internalID: -1852072259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a3f05a8549c2c4fbc8784787a2b446
+      internalID: -1623199829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcc9de2a3c1d9643bf1d4f6273d6b10
+      internalID: 1811002784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2968bf9640625ff4da5dd1ac7dee27f9
+      internalID: -1246545240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f810ae998edce44eb0cfb16c7756322
+      internalID: 1839540473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29f70b228afc4d49b2381af323d911d
+      internalID: -1010646992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d91624a45005149bd61655ae14ec53
+      internalID: -778860068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c245353a4c1f0b344b7e156cff7693be
+      internalID: -1081247293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da140e09f07074fb2893a44e043f56
+      internalID: 1471298280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c1b313cf370547b6be2f536d9a020
+      internalID: -473898359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe94f37bcb89a5428227a4cca0781e2
+      internalID: -1201692695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de3267fb239b1247bcb29da0116db5c
+      internalID: -1670722796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f3cbcd9b709b4e94254d6e373101f
+      internalID: -2118680817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f903c39bbb4aca1469739f2190f06c05
+      internalID: -895690993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dede28d84eeb0049ad39507852c281c
+      internalID: -107561123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684629655eadd4e40beecd8426a6bd98
+      internalID: 491130737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd85827a87c4d1f479eca3f476f4ac5c
+      internalID: -988413221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2240
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58de5068ab3d23429fd67c430ab19c6
+      internalID: 187202413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b8d519eb73fb48a4586b02ea79e47
+      internalID: -742796267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6606090e58b294a9f7d6c92ccab115
+      internalID: -1826559994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e89e708d8355043b281b3e616c7d81
+      internalID: -753054428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a777f5626e5390643938c2fbe102b5f3
+      internalID: -740761355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f09060d968a69c458a1fcdb53f4e188
+      internalID: 1796340984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc19e74c0f701cb4394227292189bc54
+      internalID: -1373152590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eb851a8dbd4ee439ebeacbd318f996
+      internalID: -285677164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7893efed1a164634c9a2b292708d58fb
+      internalID: -1660918959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00a4c68075d1f046a1be60c404da706
+      internalID: 1029373561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee766497c3cf5874cafe5ae3136b14f6
+      internalID: -814763001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f0243b592024047b3d1aed0cdb8a8c
+      internalID: 1074188557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a461d214e7b8da4418714fc2b63dcd3b
+      internalID: -1772784062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453fd4531d830654b947bea0b093cf52
+      internalID: -1950855415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2062fec0cf8631949bb174b3ac1c5e2f
+      internalID: -440472479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1920
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb5cdccf38fe2346a69bf735d37d811
+      internalID: 98788675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255e76a312e575b44b2f9b1948f35ca2
+      internalID: 1663491451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a95d406e8a289498c6161a0357d513
+      internalID: 1484764519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c072fd9d1c520f43b30b0df777a655e
+      internalID: -334287068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63da4d42448fffe418e626bc63b1f0d7
+      internalID: -2139853023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_214
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b8dcefd0b047642a12cca37ebdf201
+      internalID: 1671742952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3aa4df35446140beee19006ae4e04
+      internalID: -2114282979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9420e5a84d8df4f955ae606c904aad
+      internalID: 748635902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e71785d2ed40845a836e1d4bfd8de4
+      internalID: 1197667597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7bdf277329b1e4fa77012d8e90701d
+      internalID: 2142934393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_219
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71922d17aa9fe854da9e9c0d9c7e8853
+      internalID: -1903015063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_220
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7fe61d231fb804fa52519abf0ef5d1
+      internalID: -1580067549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_221
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6150d1ba1f842934ebe0c51b5bbbe954
+      internalID: 529085516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_222
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef842f1457cc52b4b868f35baba64023
+      internalID: 471161078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_223
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feaafbff49f8ac47aa06eea3a0893c6
+      internalID: -365701842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_224
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1600
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bc8dd8b2efc414bacdd02989669529
+      internalID: 1824132056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4201541cbeaa9714a8c19f1400068afa
+      internalID: 617936485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_226
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f3b4de432793349b6a813faa24f87a
+      internalID: 1067697571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_227
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98031a5613ddd2b4fad2b872a96acf61
+      internalID: -1971201019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_228
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae1d38c80f5a8049b1b73d13377b209
+      internalID: -2006443967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_229
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a0a5a773df3146aa2c2f54c788d16
+      internalID: -724334214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_230
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332ad1a48e7e391448dc4c82518ea058
+      internalID: 1094488862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_231
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1c7c87a22b534aa634138a8452e3b
+      internalID: 764639235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_232
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cbe92ea40426f41a934bbea1909144
+      internalID: -700769744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_233
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f36764d0cc38848887beeb22f8769e
+      internalID: -776170003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_234
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a587f1e252a1434d88cdcffcdeb560c
+      internalID: -1583284850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_235
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3dcf9544345b64289807eb1fbcaeee
+      internalID: -1504318997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_236
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e12a7223a66745808982aaa26c521
+      internalID: -2004072527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_237
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c04dd3f5c057b448e4b1164853f450
+      internalID: 1729043610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_238
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f0fe3a588daf14486820a2cadd87b9
+      internalID: 2135494850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_239
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1280
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba35c2f9893be40aeda70f8a6870b5
+      internalID: -22189790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b545a1869b09243b157956110af896
+      internalID: 800279684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_241
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1537d44617bdf5a459d949e1e07c8dc2
+      internalID: -693719845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_242
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce7835c06dbdfa4f87d1eadc32ca829
+      internalID: 1422645844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_243
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d54b83811beafe4bbaa14be2ff637be
+      internalID: -765930175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_244
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80746aff80ddc94db99f9b64a6e8f40
+      internalID: 455166310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_245
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9537ea8ceeb6c174dabbb8f60eb3f87f
+      internalID: -397130182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_246
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210846d528995a64580bbc0c29389a8e
+      internalID: -1677537413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_247
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffc409fac493824dbf55822d960f10f
+      internalID: -1608950346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_248
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9755cda9a6fef74d815e721dbf4cb29
+      internalID: 523060292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_249
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642526504b7a2db43acfc7dbfdd9319e
+      internalID: -386891198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_250
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c33b315c56fa4cad6d4262a94003c
+      internalID: -154206969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_251
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a682d65bc2a0840bb7a80ec86a41bf
+      internalID: -1779150597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_252
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea60fd1d607e046b48648b03f41cb7
+      internalID: -725198597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_253
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370af90852dc367479dbbb851106d273
+      internalID: 478647848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_254
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 960
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fe13fb8a1039d4c865d65c9788362b
+      internalID: -614676793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_255
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907bfab3c4b6fbe478f0821f3ba4485e
+      internalID: -1191951543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_256
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4f1f515c7f5394c9cd845008a693f8
+      internalID: 738253753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_257
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c3e858bb3e4b747a2f2386b34d15c0
+      internalID: 818302032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_258
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab2a608eb2b4264f9e6ccab9b5f6744
+      internalID: -565116559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_259
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb9dddd0533d39488b093e9c125395c
+      internalID: -1674632699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_260
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8fd5f0de0a71f41829068bd395bd1f
+      internalID: -1332692989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_261
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3776d9fa953bceb48b1accdef2ea20a5
+      internalID: 1506175385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_262
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824be7a5a73e26f48894dd58b3547134
+      internalID: -102789279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_263
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a5e5ba4a76a34d9e1c4bb5050f969
+      internalID: 876302340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_264
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cccd1b8f4883f419ca1912a7a531f8
+      internalID: 792537593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_265
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25649f182ea72c940bbb93dbbe28d7e7
+      internalID: -1047290029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_266
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4941e6d08434b9d4e978d2c323bb9b69
+      internalID: -363099416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_267
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272e4233f78fcbc468a7db92c9ee4d78
+      internalID: -1785379881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_268
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cb08d68aa251e4aa8afada15b3c01a
+      internalID: 1984102418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_269
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 640
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9efd6460924ab3439a685e78d57bc02
+      internalID: 1448261741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e20b54aff87ff4c8314171d1afb5a7
+      internalID: -392094024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_271
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39426a89fb0898745beeb59840786cc6
+      internalID: 1691351037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_272
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a803155ddd48cb49921110b0f419168
+      internalID: -325534376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_273
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9a563b23c49f41ae45130f23da035
+      internalID: 1832188772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_274
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2660cb86d12df44b5c1a6da53d6ad7
+      internalID: 205083515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_275
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d7cb4911b3ec8449c4c7fc3fe2b2ff
+      internalID: 1501246166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_276
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ef2193a19e3f4a851bd019e865602
+      internalID: -1425969917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_277
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4f339b3e3ebbe44b9806ed187a489e
+      internalID: 1598109534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_278
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc730b923923a9468253fcf12fcc4c4
+      internalID: 440383776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_279
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b6e6f52142f94f9453045ad3afdfd
+      internalID: 707754339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_280
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d777da1c7f46a942afd95e2722f3eb1
+      internalID: 1333401810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_281
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a0a2b454340d4ca85f6d3268d2bb3
+      internalID: -1085638993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_282
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d062895c5e7be64682cdd330d2f2804
+      internalID: 1805354690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_283
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ddb0250eebf4498e96622fa0fde48
+      internalID: 1669736929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_284
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 320
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d5487f1c1ca64397aa2b83516adda
+      internalID: -416337900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_285
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45fe776ea93cc74f9fb40e0e0b27562
+      internalID: -467139319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_286
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b84ab105c479942bee4913765a90c0
+      internalID: 296495208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_287
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53468cd93ec1f48b3720e8d697d9cd
+      internalID: -1306537654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_288
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861120259a9f77d4f9b8a6496cd88001
+      internalID: 895594764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_289
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6ed872482735843af3e0878e3d3144
+      internalID: 251433029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_290
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a0470c8ee65749b64cdd0487dea3d
+      internalID: 954888872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_291
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b102e03e7f15cbe4bb43cbb0c2d606ec
+      internalID: 2081129147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_292
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a25d9d892e57db4a908f5498e3c1fc4
+      internalID: 1312345752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_293
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19883215dbef8004eb6da2eee7dd3d50
+      internalID: 268605624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_294
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d50c24fb3d76d348b43ac49b2d10898
+      internalID: -1774595667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_295
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb868dcf73d852448a42908cbfe84d6
+      internalID: 1174361176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_296
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4790c6916932940a17802f0316338c
+      internalID: -1997960070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_297
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9190304de47057c41a295bd976c3dc4f
+      internalID: 1065637937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_298
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad77fd7cda8f524ea257b55abf25126
+      internalID: -1142672808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulbaroo_unity_60fps_15x20_sheet_299
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba299762b6ea63f4bbd3e2db8cbef7dc
+      internalID: -182992949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8194617f7793074cae6069540ee3d5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":20.0},"gridSpriteSize":{"x":256.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bulbaroo_unity_60fps_15x20_sheet_0: -221098433
+      bulbaroo_unity_60fps_15x20_sheet_1: -2127196916
+      bulbaroo_unity_60fps_15x20_sheet_10: -2112690368
+      bulbaroo_unity_60fps_15x20_sheet_100: -930299959
+      bulbaroo_unity_60fps_15x20_sheet_101: 2100169306
+      bulbaroo_unity_60fps_15x20_sheet_102: -1451114385
+      bulbaroo_unity_60fps_15x20_sheet_103: 1126328378
+      bulbaroo_unity_60fps_15x20_sheet_104: -1260409680
+      bulbaroo_unity_60fps_15x20_sheet_105: 1775322682
+      bulbaroo_unity_60fps_15x20_sheet_106: -767865497
+      bulbaroo_unity_60fps_15x20_sheet_107: -1290070756
+      bulbaroo_unity_60fps_15x20_sheet_108: 1720668947
+      bulbaroo_unity_60fps_15x20_sheet_109: 638815555
+      bulbaroo_unity_60fps_15x20_sheet_11: 1996781610
+      bulbaroo_unity_60fps_15x20_sheet_110: -1914881246
+      bulbaroo_unity_60fps_15x20_sheet_111: -1866828702
+      bulbaroo_unity_60fps_15x20_sheet_112: 2128810976
+      bulbaroo_unity_60fps_15x20_sheet_113: -2093387371
+      bulbaroo_unity_60fps_15x20_sheet_114: 1070329879
+      bulbaroo_unity_60fps_15x20_sheet_115: -1092938435
+      bulbaroo_unity_60fps_15x20_sheet_116: -259623457
+      bulbaroo_unity_60fps_15x20_sheet_117: -50430751
+      bulbaroo_unity_60fps_15x20_sheet_118: 1257962267
+      bulbaroo_unity_60fps_15x20_sheet_119: 1516942348
+      bulbaroo_unity_60fps_15x20_sheet_12: -594736688
+      bulbaroo_unity_60fps_15x20_sheet_120: -1700384884
+      bulbaroo_unity_60fps_15x20_sheet_121: 1795856857
+      bulbaroo_unity_60fps_15x20_sheet_122: -1760260020
+      bulbaroo_unity_60fps_15x20_sheet_123: -1551322658
+      bulbaroo_unity_60fps_15x20_sheet_124: 356154605
+      bulbaroo_unity_60fps_15x20_sheet_125: 980612912
+      bulbaroo_unity_60fps_15x20_sheet_126: -1724951069
+      bulbaroo_unity_60fps_15x20_sheet_127: 1660619364
+      bulbaroo_unity_60fps_15x20_sheet_128: 117517989
+      bulbaroo_unity_60fps_15x20_sheet_129: 535062606
+      bulbaroo_unity_60fps_15x20_sheet_13: 391859275
+      bulbaroo_unity_60fps_15x20_sheet_130: 712774531
+      bulbaroo_unity_60fps_15x20_sheet_131: 1230187914
+      bulbaroo_unity_60fps_15x20_sheet_132: 933443050
+      bulbaroo_unity_60fps_15x20_sheet_133: 1468148794
+      bulbaroo_unity_60fps_15x20_sheet_134: 1564687294
+      bulbaroo_unity_60fps_15x20_sheet_135: 2107185395
+      bulbaroo_unity_60fps_15x20_sheet_136: -116217756
+      bulbaroo_unity_60fps_15x20_sheet_137: -794321748
+      bulbaroo_unity_60fps_15x20_sheet_138: -1386267068
+      bulbaroo_unity_60fps_15x20_sheet_139: 2094792565
+      bulbaroo_unity_60fps_15x20_sheet_14: -1316565088
+      bulbaroo_unity_60fps_15x20_sheet_140: 14663313
+      bulbaroo_unity_60fps_15x20_sheet_141: 1739542583
+      bulbaroo_unity_60fps_15x20_sheet_142: 353646345
+      bulbaroo_unity_60fps_15x20_sheet_143: -984763847
+      bulbaroo_unity_60fps_15x20_sheet_144: -1363789164
+      bulbaroo_unity_60fps_15x20_sheet_145: 1967522927
+      bulbaroo_unity_60fps_15x20_sheet_146: 1287759249
+      bulbaroo_unity_60fps_15x20_sheet_147: -1333267340
+      bulbaroo_unity_60fps_15x20_sheet_148: 1781913053
+      bulbaroo_unity_60fps_15x20_sheet_149: -1395932185
+      bulbaroo_unity_60fps_15x20_sheet_15: -1893921169
+      bulbaroo_unity_60fps_15x20_sheet_150: -441000051
+      bulbaroo_unity_60fps_15x20_sheet_151: 233335083
+      bulbaroo_unity_60fps_15x20_sheet_152: -1027606504
+      bulbaroo_unity_60fps_15x20_sheet_153: 113675104
+      bulbaroo_unity_60fps_15x20_sheet_154: -539248648
+      bulbaroo_unity_60fps_15x20_sheet_155: -733222454
+      bulbaroo_unity_60fps_15x20_sheet_156: 2100717784
+      bulbaroo_unity_60fps_15x20_sheet_157: 55822075
+      bulbaroo_unity_60fps_15x20_sheet_158: -2090373018
+      bulbaroo_unity_60fps_15x20_sheet_159: 1703303128
+      bulbaroo_unity_60fps_15x20_sheet_16: 1829990921
+      bulbaroo_unity_60fps_15x20_sheet_160: -608132844
+      bulbaroo_unity_60fps_15x20_sheet_161: -1385834204
+      bulbaroo_unity_60fps_15x20_sheet_162: 1060011527
+      bulbaroo_unity_60fps_15x20_sheet_163: -31109365
+      bulbaroo_unity_60fps_15x20_sheet_164: -1814473864
+      bulbaroo_unity_60fps_15x20_sheet_165: -943156336
+      bulbaroo_unity_60fps_15x20_sheet_166: 1720362964
+      bulbaroo_unity_60fps_15x20_sheet_167: -458887181
+      bulbaroo_unity_60fps_15x20_sheet_168: 1224649904
+      bulbaroo_unity_60fps_15x20_sheet_169: 1268737039
+      bulbaroo_unity_60fps_15x20_sheet_17: -1721917278
+      bulbaroo_unity_60fps_15x20_sheet_170: 1187632585
+      bulbaroo_unity_60fps_15x20_sheet_171: -705388219
+      bulbaroo_unity_60fps_15x20_sheet_172: -1250505940
+      bulbaroo_unity_60fps_15x20_sheet_173: 2095838128
+      bulbaroo_unity_60fps_15x20_sheet_174: -987690776
+      bulbaroo_unity_60fps_15x20_sheet_175: 597220686
+      bulbaroo_unity_60fps_15x20_sheet_176: -827444767
+      bulbaroo_unity_60fps_15x20_sheet_177: -1852072259
+      bulbaroo_unity_60fps_15x20_sheet_178: -1623199829
+      bulbaroo_unity_60fps_15x20_sheet_179: 1811002784
+      bulbaroo_unity_60fps_15x20_sheet_18: 1680061054
+      bulbaroo_unity_60fps_15x20_sheet_180: -1246545240
+      bulbaroo_unity_60fps_15x20_sheet_181: 1839540473
+      bulbaroo_unity_60fps_15x20_sheet_182: -1010646992
+      bulbaroo_unity_60fps_15x20_sheet_183: -778860068
+      bulbaroo_unity_60fps_15x20_sheet_184: -1081247293
+      bulbaroo_unity_60fps_15x20_sheet_185: 1471298280
+      bulbaroo_unity_60fps_15x20_sheet_186: -473898359
+      bulbaroo_unity_60fps_15x20_sheet_187: -1201692695
+      bulbaroo_unity_60fps_15x20_sheet_188: -1670722796
+      bulbaroo_unity_60fps_15x20_sheet_189: -2118680817
+      bulbaroo_unity_60fps_15x20_sheet_19: -1384518572
+      bulbaroo_unity_60fps_15x20_sheet_190: -895690993
+      bulbaroo_unity_60fps_15x20_sheet_191: -107561123
+      bulbaroo_unity_60fps_15x20_sheet_192: 491130737
+      bulbaroo_unity_60fps_15x20_sheet_193: -988413221
+      bulbaroo_unity_60fps_15x20_sheet_194: 187202413
+      bulbaroo_unity_60fps_15x20_sheet_195: -742796267
+      bulbaroo_unity_60fps_15x20_sheet_196: -1826559994
+      bulbaroo_unity_60fps_15x20_sheet_197: -753054428
+      bulbaroo_unity_60fps_15x20_sheet_198: -740761355
+      bulbaroo_unity_60fps_15x20_sheet_199: 1796340984
+      bulbaroo_unity_60fps_15x20_sheet_2: 61982997
+      bulbaroo_unity_60fps_15x20_sheet_20: 210393317
+      bulbaroo_unity_60fps_15x20_sheet_200: -1373152590
+      bulbaroo_unity_60fps_15x20_sheet_201: -285677164
+      bulbaroo_unity_60fps_15x20_sheet_202: -1660918959
+      bulbaroo_unity_60fps_15x20_sheet_203: 1029373561
+      bulbaroo_unity_60fps_15x20_sheet_204: -814763001
+      bulbaroo_unity_60fps_15x20_sheet_205: 1074188557
+      bulbaroo_unity_60fps_15x20_sheet_206: -1772784062
+      bulbaroo_unity_60fps_15x20_sheet_207: -1950855415
+      bulbaroo_unity_60fps_15x20_sheet_208: -440472479
+      bulbaroo_unity_60fps_15x20_sheet_209: 98788675
+      bulbaroo_unity_60fps_15x20_sheet_21: -1726410119
+      bulbaroo_unity_60fps_15x20_sheet_210: 1663491451
+      bulbaroo_unity_60fps_15x20_sheet_211: 1484764519
+      bulbaroo_unity_60fps_15x20_sheet_212: -334287068
+      bulbaroo_unity_60fps_15x20_sheet_213: -2139853023
+      bulbaroo_unity_60fps_15x20_sheet_214: 1671742952
+      bulbaroo_unity_60fps_15x20_sheet_215: -2114282979
+      bulbaroo_unity_60fps_15x20_sheet_216: 748635902
+      bulbaroo_unity_60fps_15x20_sheet_217: 1197667597
+      bulbaroo_unity_60fps_15x20_sheet_218: 2142934393
+      bulbaroo_unity_60fps_15x20_sheet_219: -1903015063
+      bulbaroo_unity_60fps_15x20_sheet_22: -1086912031
+      bulbaroo_unity_60fps_15x20_sheet_220: -1580067549
+      bulbaroo_unity_60fps_15x20_sheet_221: 529085516
+      bulbaroo_unity_60fps_15x20_sheet_222: 471161078
+      bulbaroo_unity_60fps_15x20_sheet_223: -365701842
+      bulbaroo_unity_60fps_15x20_sheet_224: 1824132056
+      bulbaroo_unity_60fps_15x20_sheet_225: 617936485
+      bulbaroo_unity_60fps_15x20_sheet_226: 1067697571
+      bulbaroo_unity_60fps_15x20_sheet_227: -1971201019
+      bulbaroo_unity_60fps_15x20_sheet_228: -2006443967
+      bulbaroo_unity_60fps_15x20_sheet_229: -724334214
+      bulbaroo_unity_60fps_15x20_sheet_23: 1151678092
+      bulbaroo_unity_60fps_15x20_sheet_230: 1094488862
+      bulbaroo_unity_60fps_15x20_sheet_231: 764639235
+      bulbaroo_unity_60fps_15x20_sheet_232: -700769744
+      bulbaroo_unity_60fps_15x20_sheet_233: -776170003
+      bulbaroo_unity_60fps_15x20_sheet_234: -1583284850
+      bulbaroo_unity_60fps_15x20_sheet_235: -1504318997
+      bulbaroo_unity_60fps_15x20_sheet_236: -2004072527
+      bulbaroo_unity_60fps_15x20_sheet_237: 1729043610
+      bulbaroo_unity_60fps_15x20_sheet_238: 2135494850
+      bulbaroo_unity_60fps_15x20_sheet_239: -22189790
+      bulbaroo_unity_60fps_15x20_sheet_24: -1997704320
+      bulbaroo_unity_60fps_15x20_sheet_240: 800279684
+      bulbaroo_unity_60fps_15x20_sheet_241: -693719845
+      bulbaroo_unity_60fps_15x20_sheet_242: 1422645844
+      bulbaroo_unity_60fps_15x20_sheet_243: -765930175
+      bulbaroo_unity_60fps_15x20_sheet_244: 455166310
+      bulbaroo_unity_60fps_15x20_sheet_245: -397130182
+      bulbaroo_unity_60fps_15x20_sheet_246: -1677537413
+      bulbaroo_unity_60fps_15x20_sheet_247: -1608950346
+      bulbaroo_unity_60fps_15x20_sheet_248: 523060292
+      bulbaroo_unity_60fps_15x20_sheet_249: -386891198
+      bulbaroo_unity_60fps_15x20_sheet_25: -166760314
+      bulbaroo_unity_60fps_15x20_sheet_250: -154206969
+      bulbaroo_unity_60fps_15x20_sheet_251: -1779150597
+      bulbaroo_unity_60fps_15x20_sheet_252: -725198597
+      bulbaroo_unity_60fps_15x20_sheet_253: 478647848
+      bulbaroo_unity_60fps_15x20_sheet_254: -614676793
+      bulbaroo_unity_60fps_15x20_sheet_255: -1191951543
+      bulbaroo_unity_60fps_15x20_sheet_256: 738253753
+      bulbaroo_unity_60fps_15x20_sheet_257: 818302032
+      bulbaroo_unity_60fps_15x20_sheet_258: -565116559
+      bulbaroo_unity_60fps_15x20_sheet_259: -1674632699
+      bulbaroo_unity_60fps_15x20_sheet_26: -1191309132
+      bulbaroo_unity_60fps_15x20_sheet_260: -1332692989
+      bulbaroo_unity_60fps_15x20_sheet_261: 1506175385
+      bulbaroo_unity_60fps_15x20_sheet_262: -102789279
+      bulbaroo_unity_60fps_15x20_sheet_263: 876302340
+      bulbaroo_unity_60fps_15x20_sheet_264: 792537593
+      bulbaroo_unity_60fps_15x20_sheet_265: -1047290029
+      bulbaroo_unity_60fps_15x20_sheet_266: -363099416
+      bulbaroo_unity_60fps_15x20_sheet_267: -1785379881
+      bulbaroo_unity_60fps_15x20_sheet_268: 1984102418
+      bulbaroo_unity_60fps_15x20_sheet_269: 1448261741
+      bulbaroo_unity_60fps_15x20_sheet_27: -503576948
+      bulbaroo_unity_60fps_15x20_sheet_270: -392094024
+      bulbaroo_unity_60fps_15x20_sheet_271: 1691351037
+      bulbaroo_unity_60fps_15x20_sheet_272: -325534376
+      bulbaroo_unity_60fps_15x20_sheet_273: 1832188772
+      bulbaroo_unity_60fps_15x20_sheet_274: 205083515
+      bulbaroo_unity_60fps_15x20_sheet_275: 1501246166
+      bulbaroo_unity_60fps_15x20_sheet_276: -1425969917
+      bulbaroo_unity_60fps_15x20_sheet_277: 1598109534
+      bulbaroo_unity_60fps_15x20_sheet_278: 440383776
+      bulbaroo_unity_60fps_15x20_sheet_279: 707754339
+      bulbaroo_unity_60fps_15x20_sheet_28: -491356072
+      bulbaroo_unity_60fps_15x20_sheet_280: 1333401810
+      bulbaroo_unity_60fps_15x20_sheet_281: -1085638993
+      bulbaroo_unity_60fps_15x20_sheet_282: 1805354690
+      bulbaroo_unity_60fps_15x20_sheet_283: 1669736929
+      bulbaroo_unity_60fps_15x20_sheet_284: -416337900
+      bulbaroo_unity_60fps_15x20_sheet_285: -467139319
+      bulbaroo_unity_60fps_15x20_sheet_286: 296495208
+      bulbaroo_unity_60fps_15x20_sheet_287: -1306537654
+      bulbaroo_unity_60fps_15x20_sheet_288: 895594764
+      bulbaroo_unity_60fps_15x20_sheet_289: 251433029
+      bulbaroo_unity_60fps_15x20_sheet_29: 548451852
+      bulbaroo_unity_60fps_15x20_sheet_290: 954888872
+      bulbaroo_unity_60fps_15x20_sheet_291: 2081129147
+      bulbaroo_unity_60fps_15x20_sheet_292: 1312345752
+      bulbaroo_unity_60fps_15x20_sheet_293: 268605624
+      bulbaroo_unity_60fps_15x20_sheet_294: -1774595667
+      bulbaroo_unity_60fps_15x20_sheet_295: 1174361176
+      bulbaroo_unity_60fps_15x20_sheet_296: -1997960070
+      bulbaroo_unity_60fps_15x20_sheet_297: 1065637937
+      bulbaroo_unity_60fps_15x20_sheet_298: -1142672808
+      bulbaroo_unity_60fps_15x20_sheet_299: -182992949
+      bulbaroo_unity_60fps_15x20_sheet_3: 21911107
+      bulbaroo_unity_60fps_15x20_sheet_30: -2141063885
+      bulbaroo_unity_60fps_15x20_sheet_31: 941553489
+      bulbaroo_unity_60fps_15x20_sheet_32: 1878543595
+      bulbaroo_unity_60fps_15x20_sheet_33: -1453753356
+      bulbaroo_unity_60fps_15x20_sheet_34: 231699287
+      bulbaroo_unity_60fps_15x20_sheet_35: 271317631
+      bulbaroo_unity_60fps_15x20_sheet_36: 1763910248
+      bulbaroo_unity_60fps_15x20_sheet_37: -1830463522
+      bulbaroo_unity_60fps_15x20_sheet_38: 1660780614
+      bulbaroo_unity_60fps_15x20_sheet_39: 247324463
+      bulbaroo_unity_60fps_15x20_sheet_4: 1620013593
+      bulbaroo_unity_60fps_15x20_sheet_40: -824922972
+      bulbaroo_unity_60fps_15x20_sheet_41: 798610249
+      bulbaroo_unity_60fps_15x20_sheet_42: -1953862798
+      bulbaroo_unity_60fps_15x20_sheet_43: 768835951
+      bulbaroo_unity_60fps_15x20_sheet_44: 1441529969
+      bulbaroo_unity_60fps_15x20_sheet_45: 1530614098
+      bulbaroo_unity_60fps_15x20_sheet_46: -945872326
+      bulbaroo_unity_60fps_15x20_sheet_47: 472481044
+      bulbaroo_unity_60fps_15x20_sheet_48: 243895788
+      bulbaroo_unity_60fps_15x20_sheet_49: 225277876
+      bulbaroo_unity_60fps_15x20_sheet_5: 301542231
+      bulbaroo_unity_60fps_15x20_sheet_50: -1421832041
+      bulbaroo_unity_60fps_15x20_sheet_51: 420029341
+      bulbaroo_unity_60fps_15x20_sheet_52: 61735644
+      bulbaroo_unity_60fps_15x20_sheet_53: 1804505597
+      bulbaroo_unity_60fps_15x20_sheet_54: 977145475
+      bulbaroo_unity_60fps_15x20_sheet_55: -808511343
+      bulbaroo_unity_60fps_15x20_sheet_56: 860246733
+      bulbaroo_unity_60fps_15x20_sheet_57: 891974674
+      bulbaroo_unity_60fps_15x20_sheet_58: 265586381
+      bulbaroo_unity_60fps_15x20_sheet_59: 1161535141
+      bulbaroo_unity_60fps_15x20_sheet_6: 1170126908
+      bulbaroo_unity_60fps_15x20_sheet_60: 1061924876
+      bulbaroo_unity_60fps_15x20_sheet_61: -1953206460
+      bulbaroo_unity_60fps_15x20_sheet_62: 1350134430
+      bulbaroo_unity_60fps_15x20_sheet_63: -1538293451
+      bulbaroo_unity_60fps_15x20_sheet_64: -311486107
+      bulbaroo_unity_60fps_15x20_sheet_65: -1806261320
+      bulbaroo_unity_60fps_15x20_sheet_66: -1676544003
+      bulbaroo_unity_60fps_15x20_sheet_67: -1992330823
+      bulbaroo_unity_60fps_15x20_sheet_68: -1691284315
+      bulbaroo_unity_60fps_15x20_sheet_69: 2078045366
+      bulbaroo_unity_60fps_15x20_sheet_7: -1135777162
+      bulbaroo_unity_60fps_15x20_sheet_70: 1050645872
+      bulbaroo_unity_60fps_15x20_sheet_71: 1579385448
+      bulbaroo_unity_60fps_15x20_sheet_72: 2106400160
+      bulbaroo_unity_60fps_15x20_sheet_73: -1413578412
+      bulbaroo_unity_60fps_15x20_sheet_74: 2132488853
+      bulbaroo_unity_60fps_15x20_sheet_75: -94251415
+      bulbaroo_unity_60fps_15x20_sheet_76: 161885213
+      bulbaroo_unity_60fps_15x20_sheet_77: -1903480643
+      bulbaroo_unity_60fps_15x20_sheet_78: 1831047522
+      bulbaroo_unity_60fps_15x20_sheet_79: -1388019805
+      bulbaroo_unity_60fps_15x20_sheet_8: 22895732
+      bulbaroo_unity_60fps_15x20_sheet_80: 1630489800
+      bulbaroo_unity_60fps_15x20_sheet_81: -1385858895
+      bulbaroo_unity_60fps_15x20_sheet_82: -1479904531
+      bulbaroo_unity_60fps_15x20_sheet_83: 1473614584
+      bulbaroo_unity_60fps_15x20_sheet_84: 1480980991
+      bulbaroo_unity_60fps_15x20_sheet_85: 850907871
+      bulbaroo_unity_60fps_15x20_sheet_86: -299853571
+      bulbaroo_unity_60fps_15x20_sheet_87: 917992673
+      bulbaroo_unity_60fps_15x20_sheet_88: -1321440260
+      bulbaroo_unity_60fps_15x20_sheet_89: 1562129580
+      bulbaroo_unity_60fps_15x20_sheet_9: 2086489082
+      bulbaroo_unity_60fps_15x20_sheet_90: -865646928
+      bulbaroo_unity_60fps_15x20_sheet_91: 874592429
+      bulbaroo_unity_60fps_15x20_sheet_92: 1965877907
+      bulbaroo_unity_60fps_15x20_sheet_93: -1489495598
+      bulbaroo_unity_60fps_15x20_sheet_94: -907253034
+      bulbaroo_unity_60fps_15x20_sheet_95: -115689874
+      bulbaroo_unity_60fps_15x20_sheet_96: -1389321813
+      bulbaroo_unity_60fps_15x20_sheet_97: -1610367636
+      bulbaroo_unity_60fps_15x20_sheet_98: 1000208825
+      bulbaroo_unity_60fps_15x20_sheet_99: -502104608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
