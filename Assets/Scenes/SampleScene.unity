@@ -2891,7 +2891,7 @@ MonoBehaviour:
   - {fileID: 1065637937, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
   - {fileID: -1142672808, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
   - {fileID: -182992949, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
-  framesPerSecond: 8
+  framesPerSecond: 24
   enableSmoothBreathing: 1
   autoBuildUI: 1
   mainCanvas: {fileID: 1876114200}
