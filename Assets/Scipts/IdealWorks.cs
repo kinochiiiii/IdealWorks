@@ -65,9 +65,12 @@ public class IdealWorks : MonoBehaviour
 
     private AudioSource audioSource;
 
-    [Header("Lightbulb Sprite Sheet (Auto-Adapts to 24x5 or 8x5)")]
-    [Tooltip("Drag your sliced sprites here. For bulbaroo_unity_24x5_spritesheet, slice 24 Columns x 5 Rows (120 sprites total) and drag _0 to _119 here!")]
+    [Header("Lightbulb Sprite Sheets (24x5 Normal & 24x4 Cheer)")]
+    [Tooltip("Slice bulbaroo_unity_24x5_spritesheet (24 Columns x 5 Rows = 120 sprites) and drag _0 to _119 here!")]
     public Sprite[] bulbSprites;
+
+    [Tooltip("Slice bulbaroo_cheer_all_states_24x4 (24 Columns x 4 Rows = 96 sprites) and drag _0 to _95 here! Plays whenever a correct letter is clicked.")]
+    public Sprite[] cheerSprites;
 
     [Tooltip("Playback speed. For 24 frames/row, 18 to 24 FPS gives silky-smooth, fluid animation!")]
     [Range(4f, 30f)]
@@ -91,7 +94,7 @@ public class IdealWorks : MonoBehaviour
     public RectTransform keyboardContainer;
     public TextMeshProUGUI hintButtonText;
 
-    private const int MAX_MISTAKES = 4; // 5 rows total: Row 0 (0 mistakes) to Row 4 (4 mistakes)
+    private const int MAX_MISTAKES = 4; // 5 rows in bulbSprites (0..4), 4 rows in cheerSprites (0..3)
 
     private string currentAnswer;
     private string currentQuestion;
@@ -99,6 +102,7 @@ public class IdealWorks : MonoBehaviour
     private HashSet<char> guessedLetters = new HashSet<char>();
     private int mistakes = 0;
     private bool roundOver = false;
+    private bool isCheering = false;
     private int wins = 0;
     private int streak = 0;
     private int hintsLeft = 2;
@@ -197,7 +201,7 @@ public class IdealWorks : MonoBehaviour
     }
 
     /// <summary>
-    /// Dynamically detects whether you sliced 24 frames/row (120 sprites), 8 frames/row (40 sprites), or 1 frame/row (5 sprites).
+    /// Dynamically detects frames per row for bulbSprites (e.g. 120 / 5 = 24 frames/row).
     /// </summary>
     private int GetFramesPerRow()
     {
@@ -206,9 +210,64 @@ public class IdealWorks : MonoBehaviour
         return Mathf.Max(1, calculated);
     }
 
+    /// <summary>
+    /// Dynamically detects frames per row for cheerSprites (e.g. 96 / 4 = 24 frames/row across states 0..3).
+    /// </summary>
+    private int GetCheerFramesPerRow()
+    {
+        if (cheerSprites == null || cheerSprites.Length == 0) return 1;
+        int calculated = cheerSprites.Length / MAX_MISTAKES;
+        return Mathf.Max(1, calculated);
+    }
+
+    private void TriggerCheerAnimation()
+    {
+        if (cheerSprites != null && cheerSprites.Length > 0)
+        {
+            isCheering = true;
+            currentFrameIndex = 0;
+            frameTimer = 0f;
+            UpdateBulbSprite();
+        }
+    }
+
     private void AnimateBulbSprite()
     {
-        if (bulbImage == null || bulbSprites == null || bulbSprites.Length == 0) return;
+        if (bulbImage == null) return;
+
+        // 1. If currently playing the Cheer animation (when a correct letter was clicked)
+        if (isCheering && cheerSprites != null && cheerSprites.Length > 0)
+        {
+            int cheerFrames = GetCheerFramesPerRow();
+            frameTimer += Time.deltaTime;
+            float interval = 1f / Mathf.Max(1f, framesPerSecond);
+
+            if (frameTimer >= interval)
+            {
+                frameTimer = 0f;
+                currentFrameIndex++;
+
+                if (currentFrameIndex >= cheerFrames)
+                {
+                    if (roundOver)
+                    {
+                        // Keep looping the happy cheer animation on word win until next round loads
+                        currentFrameIndex = 0;
+                    }
+                    else
+                    {
+                        // Finished playing the 24-frame cheer burst; return to normal state loop
+                        isCheering = false;
+                        currentFrameIndex = 0;
+                    }
+                }
+                UpdateBulbSprite();
+            }
+            return;
+        }
+
+        // 2. Normal state animation (Rows 0 to 4 in bulbSprites)
+        if (bulbSprites == null || bulbSprites.Length == 0) return;
 
         int framesPerRow = GetFramesPerRow();
         if (framesPerRow > 1)
@@ -240,12 +299,27 @@ public class IdealWorks : MonoBehaviour
     {
         if (bulbImage == null || !enableSmoothBreathing) return;
 
-        // Smooth continuous 60 FPS breathing bob and subtle squash & stretch
         float time = Time.time;
-        float breath = Mathf.Sin(time * 3.2f);
-        float bobY = breath * 3.5f;
-        float scaleY = 1f + breath * 0.02f;
-        float scaleX = 1f - breath * 0.015f;
+        float bobY;
+        float scaleX;
+        float scaleY;
+
+        if (isCheering)
+        {
+            // Happy celebratory bounce when a correct letter is clicked
+            float cheerWave = Mathf.Abs(Mathf.Sin(time * 12f));
+            bobY = cheerWave * 8f;
+            scaleY = 1f + Mathf.Sin(time * 16f) * 0.035f;
+            scaleX = 1f - Mathf.Sin(time * 16f) * 0.025f;
+        }
+        else
+        {
+            // Smooth continuous 60 FPS breathing bob and subtle squash & stretch
+            float breath = Mathf.Sin(time * 3.2f);
+            bobY = breath * 3.5f;
+            scaleY = 1f + breath * 0.02f;
+            scaleX = 1f - breath * 0.015f;
+        }
 
         // Dampened reactive shake on wrong guesses
         float shakeOffset = 0f;
@@ -268,7 +342,22 @@ public class IdealWorks : MonoBehaviour
 
     private void UpdateBulbSprite()
     {
-        if (bulbImage == null || bulbSprites == null || bulbSprites.Length == 0) return;
+        if (bulbImage == null) return;
+
+        // If cheering after a correct letter guess, display the matching state row from cheerSprites (24x4)
+        if (isCheering && cheerSprites != null && cheerSprites.Length > 0)
+        {
+            int cheerRow = Mathf.Clamp(mistakes, 0, MAX_MISTAKES - 1); // Rows 0..3
+            int cheerFrames = GetCheerFramesPerRow();
+            int cheerIndex = cheerRow * cheerFrames + Mathf.Clamp(currentFrameIndex, 0, cheerFrames - 1);
+            if (cheerIndex < cheerSprites.Length && cheerSprites[cheerIndex] != null)
+            {
+                bulbImage.sprite = cheerSprites[cheerIndex];
+                return;
+            }
+        }
+
+        if (bulbSprites == null || bulbSprites.Length == 0) return;
 
         int clampedStage = Mathf.Clamp(mistakes, 0, MAX_MISTAKES);
         int framesPerRow = GetFramesPerRow();
@@ -308,6 +397,7 @@ public class IdealWorks : MonoBehaviour
         guessedLetters.Clear();
         mistakes = 0;
         roundOver = false;
+        isCheering = false;
         hintsLeft = 2;
         currentFrameIndex = 0;
         frameTimer = 0f;
@@ -339,6 +429,9 @@ public class IdealWorks : MonoBehaviour
                 if (!guessedLetters.Contains(ch)) { allSolved = false; break; }
             }
 
+            // Show the 24x4 cheer animation matching the current mistake state!
+            TriggerCheerAnimation();
+
             if (allSolved)
             {
                 roundOver = true;
@@ -357,6 +450,7 @@ public class IdealWorks : MonoBehaviour
         }
         else
         {
+            isCheering = false;
             mistakes = Mathf.Min(MAX_MISTAKES, mistakes + 1);
             currentFrameIndex = 0;
             frameTimer = 0f;
