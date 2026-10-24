@@ -79,6 +79,37 @@ public class IdealWorks : MonoBehaviour
     [Tooltip("Adds a smooth procedural breathing bob and subtle squash-and-stretch between frame changes.")]
     public bool enableSmoothBreathing = true;
 
+    [Header("Word Slot Size Settings")]
+    [Tooltip("Scale multiplier for the word letter slots (increase to make word slots bigger!).")]
+    [Range(0.5f, 2.5f)]
+    public float wordSlotScale = 1.15f;
+
+    [Tooltip("Base size of each word letter slot (Width x Height).")]
+    public Vector2 wordSlotSize = new Vector2(64f, 72f);
+
+    [Tooltip("Spacing between word letter slots.")]
+    public float wordSlotSpacing = 10f;
+
+    [Tooltip("Font size of the revealed letters inside the word slots.")]
+    public float wordSlotFontSize = 30f;
+
+    [Header("Keyboard Size Settings")]
+    [Tooltip("Automatically expands the 9x3 A-Z keys to fill the entire KeyboardContainer area.")]
+    public bool autoFitKeyboardToContainer = true;
+
+    [Tooltip("Live scale multiplier for the keyboard keys (increase to make keys even bigger!).")]
+    [Range(0.5f, 2.5f)]
+    public float keyboardScale = 1.15f;
+
+    [Tooltip("Minimum/base size of each A-Z key button (Width x Height).")]
+    public Vector2 keyboardKeySize = new Vector2(95f, 80f);
+
+    [Tooltip("Spacing between A-Z key buttons.")]
+    public Vector2 keyboardKeySpacing = new Vector2(10f, 10f);
+
+    [Tooltip("Base font size of the A-Z letters on the keyboard.")]
+    public float keyboardFontSize = 28f;
+
     [Header("Optional Manual UI References (Auto-Built if Left Empty)")]
     public bool autoBuildUI = false;
     public Canvas mainCanvas;
@@ -170,6 +201,7 @@ public class IdealWorks : MonoBehaviour
     {
         AnimateBulbSprite();
         ApplySmoothBulbMotion();
+        ApplyKeyboardSize();
 
         // Physical keyboard input (A-Z)
         if (!roundOver)
@@ -426,7 +458,7 @@ public class IdealWorks : MonoBehaviour
             bool allSolved = true;
             foreach (char ch in currentAnswer)
             {
-                if (!guessedLetters.Contains(ch)) { allSolved = false; break; }
+                if (char.IsLetter(ch) && !guessedLetters.Contains(ch)) { allSolved = false; break; }
             }
 
             // Show the 24x4 cheer animation matching the current mistake state!
@@ -494,7 +526,7 @@ public class IdealWorks : MonoBehaviour
         List<char> unguessed = new List<char>();
         foreach (char ch in currentAnswer)
         {
-            if (!guessedLetters.Contains(ch) && !unguessed.Contains(ch))
+            if (char.IsLetter(ch) && !guessedLetters.Contains(ch) && !unguessed.Contains(ch))
             {
                 unguessed.Add(ch);
             }
@@ -557,18 +589,59 @@ public class IdealWorks : MonoBehaviour
     private void RenderWordSlots()
     {
         if (wordSlotsContainer == null) return;
+
+        Canvas.ForceUpdateCanvases();
+        HorizontalLayoutGroup hlg = wordSlotsContainer.GetComponent<HorizontalLayoutGroup>();
+        if (hlg == null) hlg = wordSlotsContainer.gameObject.AddComponent<HorizontalLayoutGroup>();
+        hlg.childAlignment = TextAnchor.MiddleCenter;
+        hlg.spacing = wordSlotSpacing;
+        hlg.childControlWidth = false;
+        hlg.childControlHeight = false;
+        hlg.childForceExpandWidth = false;
+        hlg.childForceExpandHeight = false;
+
         foreach (Transform child in wordSlotsContainer) Destroy(child.gameObject);
+
+        float baseW = Mathf.Max(wordSlotSize.x, 60f) * Mathf.Max(0.5f, wordSlotScale);
+        float baseH = Mathf.Max(wordSlotSize.y, 68f) * Mathf.Max(0.5f, wordSlotScale);
+
+        // If the container width is known and the word is very long, scale down just enough so it never overflows
+        float containerW = wordSlotsContainer.rect.width;
+        if (containerW > 200f && currentAnswer.Length > 0)
+        {
+            float maxTotalW = containerW * 0.94f;
+            float neededW = currentAnswer.Length * baseW + Mathf.Max(0, currentAnswer.Length - 1) * wordSlotSpacing;
+            if (neededW > maxTotalW)
+            {
+                float ratio = maxTotalW / neededW;
+                baseW *= ratio;
+                baseH *= Mathf.Max(0.8f, ratio);
+            }
+        }
+
+        float dynamicFontSize = Mathf.Max(wordSlotFontSize * wordSlotScale, baseH * 0.45f);
 
         for (int i = 0; i < currentAnswer.Length; i++)
         {
             char ch = currentAnswer[i];
-            bool revealed = guessedLetters.Contains(ch) || roundOver;
-            bool wasGuessed = guessedLetters.Contains(ch);
+
+            // If the character is a space (two-word answer), create an invisible spacer gap instead of a tile box
+            if (ch == ' ')
+            {
+                GameObject spaceObj = new GameObject("Space_" + i);
+                spaceObj.transform.SetParent(wordSlotsContainer, false);
+                RectTransform spaceRt = spaceObj.AddComponent<RectTransform>();
+                spaceRt.sizeDelta = new Vector2(baseW * 0.55f, baseH);
+                continue;
+            }
+
+            bool revealed = guessedLetters.Contains(ch) || roundOver || !char.IsLetter(ch);
+            bool wasGuessed = guessedLetters.Contains(ch) || !char.IsLetter(ch);
 
             GameObject slot = new GameObject("Slot_" + i);
             slot.transform.SetParent(wordSlotsContainer, false);
             RectTransform rt = slot.AddComponent<RectTransform>();
-            rt.sizeDelta = new Vector2(44f, 50f);
+            rt.sizeDelta = new Vector2(baseW, baseH);
 
             Image bg = slot.AddComponent<Image>();
             bg.color = revealed
@@ -579,7 +652,7 @@ public class IdealWorks : MonoBehaviour
             ol.effectColor = revealed
                 ? (wasGuessed ? HexColor("#fde047") : HexColor("#f43f5e"))
                 : HexColor("#334155");
-            ol.effectDistance = new Vector2(2f, -2f);
+            ol.effectDistance = new Vector2(2.5f, -2.5f);
 
             GameObject txtObj = new GameObject("Label");
             txtObj.transform.SetParent(slot.transform, false);
@@ -590,16 +663,72 @@ public class IdealWorks : MonoBehaviour
 
             TextMeshProUGUI label = txtObj.AddComponent<TextMeshProUGUI>();
             label.text = revealed ? ch.ToString() : "";
-            label.fontSize = 22;
+            label.fontSize = dynamicFontSize;
             label.fontStyle = FontStyles.Bold;
             label.alignment = TextAlignmentOptions.Center;
             label.color = (revealed && wasGuessed) ? HexColor("#090d16") : Color.white;
         }
     }
 
+    private Vector2 GetCalculatedKeySize()
+    {
+        // Upgrade old small Inspector values if Unity serialized an earlier default
+        Vector2 baseSize = new Vector2(
+            Mathf.Max(keyboardKeySize.x, 86f),
+            Mathf.Max(keyboardKeySize.y, 72f)
+        );
+
+        if (autoFitKeyboardToContainer && keyboardContainer != null)
+        {
+            Rect r = keyboardContainer.rect;
+            if (r.width > 120f && r.height > 80f)
+            {
+                float fitW = (r.width * 0.96f - keyboardKeySpacing.x * 8f) / 9f;
+                float fitH = (r.height * 0.92f - keyboardKeySpacing.y * 2f) / 3f;
+                baseSize = new Vector2(Mathf.Max(baseSize.x, fitW), Mathf.Max(baseSize.y, fitH));
+            }
+        }
+
+        return baseSize * Mathf.Max(0.5f, keyboardScale);
+    }
+
+    private void ApplyKeyboardSize()
+    {
+        if (keyboardContainer == null) return;
+        GridLayoutGroup glg = keyboardContainer.GetComponent<GridLayoutGroup>();
+        if (glg == null) return;
+
+        Vector2 targetSize = GetCalculatedKeySize();
+        glg.cellSize = targetSize;
+        glg.spacing = keyboardKeySpacing;
+        glg.childAlignment = TextAnchor.MiddleCenter;
+        glg.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        glg.constraintCount = 9;
+
+        float dynamicFontSize = Mathf.Max(keyboardFontSize, targetSize.y * 0.42f);
+        for (int i = 0; i < letterButtonLabels.Count; i++)
+        {
+            if (letterButtonLabels[i] != null)
+            {
+                letterButtonLabels[i].fontSize = dynamicFontSize;
+            }
+        }
+    }
+
     private void EnsureKeyboardButtons()
     {
         if (keyboardContainer == null || letterButtons.Count == 26) return;
+
+        Canvas.ForceUpdateCanvases();
+        GridLayoutGroup glg = keyboardContainer.GetComponent<GridLayoutGroup>();
+        if (glg == null) glg = keyboardContainer.gameObject.AddComponent<GridLayoutGroup>();
+
+        Vector2 initialKeySize = GetCalculatedKeySize();
+        glg.cellSize = initialKeySize;
+        glg.spacing = keyboardKeySpacing;
+        glg.childAlignment = TextAnchor.MiddleCenter;
+        glg.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        glg.constraintCount = 9;
 
         // Clear existing children if any
         foreach (Transform child in keyboardContainer)
@@ -611,17 +740,19 @@ public class IdealWorks : MonoBehaviour
         letterButtonBgs.Clear();
         letterButtonLabels.Clear();
 
+        float dynamicFontSize = Mathf.Max(keyboardFontSize, initialKeySize.y * 0.42f);
+
         for (int i = 0; i < 26; i++)
         {
             char letter = (char)('A' + i);
             GameObject keyObj = new GameObject("Key_" + letter);
             keyObj.transform.SetParent(keyboardContainer, false);
             RectTransform keyRect = keyObj.AddComponent<RectTransform>();
-            keyRect.sizeDelta = new Vector2(58, 48);
+            keyRect.sizeDelta = initialKeySize;
 
             Image keyBg = keyObj.AddComponent<Image>();
             keyBg.color = HexColor("#1e293b");
-            AddOutline(keyObj, HexColor("#334155"), 1.5f);
+            AddOutline(keyObj, HexColor("#334155"), 2f);
 
             Button btn = keyObj.AddComponent<Button>();
             char captured = letter;
@@ -636,7 +767,7 @@ public class IdealWorks : MonoBehaviour
 
             TextMeshProUGUI lbl = lblObj.AddComponent<TextMeshProUGUI>();
             lbl.text = letter.ToString();
-            lbl.fontSize = 16;
+            lbl.fontSize = dynamicFontSize;
             lbl.fontStyle = FontStyles.Bold;
             lbl.alignment = TextAlignmentOptions.Center;
             lbl.color = HexColor("#f8fafc");
@@ -789,11 +920,13 @@ public class IdealWorks : MonoBehaviour
         hlg.childControlHeight = false;
 
         // On-Screen A-Z Keyboard Container
-        keyboardContainer = CreateRect("KeyboardContainer", rightCard, new Vector2(0.03f, 0.04f), new Vector2(0.97f, 0.52f), Vector2.zero, Vector2.zero);
+        keyboardContainer = CreateRect("KeyboardContainer", rightCard, new Vector2(0.02f, 0.03f), new Vector2(0.98f, 0.55f), Vector2.zero, Vector2.zero);
         GridLayoutGroup glg = keyboardContainer.gameObject.AddComponent<GridLayoutGroup>();
-        glg.cellSize = new Vector2(58, 48);
-        glg.spacing = new Vector2(8, 8);
+        glg.cellSize = keyboardKeySize;
+        glg.spacing = keyboardKeySpacing;
         glg.childAlignment = TextAnchor.MiddleCenter;
+        glg.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
+        glg.constraintCount = 9;
 
         EnsureKeyboardButtons();
     }

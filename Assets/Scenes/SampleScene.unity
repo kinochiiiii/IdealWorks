@@ -1010,6 +1010,139 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &536481053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536481054}
+  - component: {fileID: 536481057}
+  - component: {fileID: 536481056}
+  - component: {fileID: 536481055}
+  m_Layer: 5
+  m_Name: HntButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &536481054
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536481053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1072720538}
+  m_Father: {fileID: 1290323422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.76000005, y: 0.8296915}
+  m_AnchorMax: {x: 0.97, y: 0.89437455}
+  m_AnchoredPosition: {x: 2.4400024, y: -9.316589}
+  m_SizeDelta: {x: 4.879, y: -18.633}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &536481055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536481053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 536481056}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1656859032}
+        m_TargetAssemblyTypeName: IdealWorks, Assembly-CSharp
+        m_MethodName: UseSparkHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &536481056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536481053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1717563814, guid: 1e8a286c26e55cf4e9208420f2f9bbed, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &536481057
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536481053}
+  m_CullTransparentMesh: 1
 --- !u!1 &730820219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,6 +1421,145 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1072720537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072720538}
+  - component: {fileID: 1072720540}
+  - component: {fileID: 1072720539}
+  m_Layer: 5
+  m_Name: HintText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1072720538
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072720537}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 536481054}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072720539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072720537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Spark Hint (2)
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1072720540
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072720537}
+  m_CullTransparentMesh: 1
 --- !u!1 &1087699593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +2105,7 @@ RectTransform:
   - {fileID: 1422532160}
   - {fileID: 1388484726}
   - {fileID: 1416423335}
+  - {fileID: 536481054}
   m_Father: {fileID: 1876114201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.46, y: 0.05}
@@ -2161,7 +2434,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 6
+  m_Spacing: 8
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -2352,8 +2625,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2525,65 +2798,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IdealWorks
   questionsAndAnswers:
-  - category: INVENTIONS & LIGHT
-    question: What is the glowing wire thread inside an incandescent lightbulb called?
-    answer: FILAMENT
-  - category: CLASSIC GAMES
-    question: What classic trivia game features a cheeky kangaroo and inspired this
-      lightbulb puzzle?
-    answer: HANGAROO
-  - category: SCIENCE & POWER
-    question: What form of energy flows through wires to illuminate lightbulbs and
-      power circuits?
-    answer: ELECTRICITY
-  - category: POWER GRID
-    question: What term describes a sudden, complete loss of electrical power in
-      a neighborhood or city?
-    answer: BLACKOUT
-  - category: CHEMISTRY
-    question: Which heat-resistant metal element (symbol W) is used to make bulb
-      filaments?
-    answer: TUNGSTEN
-  - category: CREATIVITY
-    question: What creative thinking session is symbolized by a glowing lightbulb
-      over your head?
-    answer: BRAINSTORM
-  - category: PHYSICS
-    question: What measure of electrical potential difference pushes electric current
-      through a wire?
-    answer: VOLTAGE
-  - category: LIGHT & MAGIC
-    question: What word describes shining brightly with quick, glittering flashes
-      of light?
-    answer: SPARKLE
-  - category: INVENTIONS
-    question: What iconic invention turned electrical current into visible light
-      to illuminate homes?
-    answer: LIGHTBULB
-  - category: ENERGY & METRICS
-    question: What measurement indicates the amount of electrical power a lightbulb
-      consumes?
-    answer: WATTAGE
-  - category: LIGHT & OPTICS
-    question: What unit measurement tells you the actual brightness or visible light
-      output of a bulb?
-    answer: LUMENS
-  - category: ELECTRONICS
-    question: What complete, closed loop or pathway must electric current follow
-      to light up a bulb?
-    answer: CIRCUIT
-  - category: POWER & MACHINES
-    question: What machine converts mechanical motion into electricity during a power
-      outage?
-    answer: GENERATOR
-  - category: ENERGY STORAGE
-    question: What portable chemical cell stores electrical energy to power flashlights
-      and gadgets?
-    answer: BATTERY
-  - category: PHYSICS & METALS
-    question: What type of material (like copper or aluminum) allows electric current
-      to flow freely?
-    answer: CONDUCTOR
+  - category: EVENTS MANAGEMENT
+    question: PERSONNEL HIRED TO REPRESENT A BRAND
+    answer: BRAND AMBASSADOR
+  - category: 
+    question: AN INTERNATIONAL TERM REFERRING TO THE AISLE.
+    answer: GANGWAY
+  - category: 
+    question: THE MOST COMMON WIDTH FOR A BACKWALL PANEL
+    answer: METER
+  - category: 
+    question: TYPE OF ELECTRICAL PLUGS WHICH ARE CONNECTED BY TWISTING TOGETHER AS
+      OPPOSED TO STANDARD MALE AND FEMALE PLUGS.
+    answer: TWIST LOCK
+  - category: 
+    question: PLACTIC MATERIAL USED FPR DRAPE OR TABLE TOPS.
+    answer: VINYL
+  - category: 
+    question: A LAMP PROVIDING  CONTROLLED CIRCLE OF LIGHT.
+    answer: SPOT LIGHT
+  - category: 
+    question: SYSTEM USED TO KEEP EXHIBITS SAFE, SUCH AS GUARDS, CLOSE CIRCUIT TV,
+      ETC.
+    answer: SECURITY
+  - category: 
+    question: WEIGHTS PUT AROUND BASE TO HELP ANCHOR AND HOLD MATERIALS.
+    answer: SANDBAGS
+  - category: 
+    question: PROCEDURE IN WHICH ATTENDEES RECEIVE BADGES FOR ADMITTANCE.
+    answer: REGISTRATION
+  - category: 
+    question: THE COSTUMER - COMPANY OR PERSONS PRESENTING AN EXHIBIT.
+    answer: EXHIBITOR
+  - category: 
+    question: A LOW WALL USED TO DIVIDE EXHIBITS.
+    answer: RAIL
+  - category: 
+    question: 'PARTITION BETWEEN EXHIBITORS. REFERS TO: SIDE RAIL.'
+    answer: DIVIDER
+  - category: 
+    question: A DOOR DESIGNATED FOR EMERGENIES, WHICHMUST BE KEPT CLEAR OF OBSTRUCTION.
+    answer: FIRE EXIT
+  - category: 
+    question: 'REFERS TO: CONVENTION CENTER, HALL.'
+    answer: FACILITY
+  - category: 
+    question: A MAP SHOWING THE SIZE AND LOCATIONS OF EXHIBIT SPACES.
+    answer: FLOOR PLAN
+  - category: 
+    question: PROFILE CUT DISPLAY ITEM SUCH AS LETTERS, PHOTOS, ETC.
+    answer: CUT OUT
+  - category: 
+    question: A STATEMENT SENT TO CLIENTS FOR MONIES OWED TO CORPORATION FOR SERVICES
+      OR ITEM PROVIDED.
+    answer: INVOICE
+  - category: 
+    question: RAISED STAGE FOR SPEAKERS, ENTERTAINERS OR PRODUCTS.
+    answer: PLATFORM
+  - category: 
+    question: FLOOR COVERING FOR BOOTH OR AISLE
+    answer: CARPET
+  - category: 
+    question: AN INDIVIDUAL OR COMPANY THAT PROVIDES SERVICES OR MATERIALS TO TRADE
+      AND/ OR ITSEXHITORS.
+    answer: CONTRACTOR
+  - category: 
+    question: THE PANELS AT THE REAR OF AN EXHIBIT.
+    answer: BACKWALL
+  - category: 
+    question: AN AREA MADE UP OF ONE OR MORE STANDARD UNITS OF EXHIBIT SPACE
+    answer: BOOTH
+  - category: 
+    question: SYMBOL IDENTIFYING  AN ORGANIZATION, COMPANY OR EVENT.
+    answer: LOGO
+  - category: 
+    question: STANDARD SHELL SCHEME
+    answer: OCTANORM
+  - category: 
+    question: A MECHANICAL CLAMP INSERTED INTO THE END OF ALUMINUM PROFILE BEAM
+    answer: 
+  - category: 
+    question: 20AMPS, 30AMPS, 60AMPS
+    answer: CIRCUIT BREAKER
   correctSound: {fileID: 8300000, guid: cde2b47dd8028624183ffb1d6a14d300, type: 3}
   mistake1Sound: {fileID: 8300000, guid: 0c3a5b6ea0a7a3c4082985cf38c96e42, type: 3}
   mistake2Sound: {fileID: 8300000, guid: bd625acab9ab9194cbb3fd16f6a373f1, type: 3}
@@ -2891,8 +3187,114 @@ MonoBehaviour:
   - {fileID: 1065637937, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
   - {fileID: -1142672808, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
   - {fileID: -182992949, guid: efbb34e7d8ffa0f4b846d22364ea770f, type: 3}
-  framesPerSecond: 24
+  cheerSprites:
+  - {fileID: -1067261412, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 873249012, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -836419668, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1367437811, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -2001362176, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 2013230979, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 873279377, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1797614304, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1545716466, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1568317730, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -315608960, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -30548996, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1316213968, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1291101296, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1032643395, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 596241275, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 438955440, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -904718465, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -966383494, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1585630445, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -392723541, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1861692993, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 882238457, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 220442699, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1406441015, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -617756860, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1122856454, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1827809280, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 847371271, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -752096740, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1419081392, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -462390265, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -505694398, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 800251606, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1810484496, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 707213461, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1454617764, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -702484998, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1461576304, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1383125130, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 2129034989, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1995768765, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -384342188, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -310259265, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1637682777, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -504940267, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1248224566, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1670216344, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1950135807, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 736759077, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 2030773008, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1085003639, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 714880380, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -64639617, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 45583072, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 703205994, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1255936806, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1222980972, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -139908453, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 927693791, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 176193687, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 774249532, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1551046849, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1509854836, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -143950252, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1919814899, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1211978579, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -702258703, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 798153409, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1604477903, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -54780400, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -156244566, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -424919017, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1911591445, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1473805040, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1987268177, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1460828649, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1063312815, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 505568085, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1122887290, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1211543388, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -12522691, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1631689361, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -334523610, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -1319676592, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -961035669, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1675754150, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 398188198, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1608356889, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -2136438547, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: 1542838399, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -160721619, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -258624498, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -330851672, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -273013243, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  - {fileID: -87653611, guid: a12de343cbeaa78448ca614a71d49981, type: 3}
+  framesPerSecond: 30
   enableSmoothBreathing: 1
+  wordSlotScale: 0.7
+  wordSlotSize: {x: 74, y: 82}
+  wordSlotSpacing: 15
+  wordSlotFontSize: 30
+  autoFitKeyboardToContainer: 1
+  keyboardScale: 0.8
+  keyboardKeySize: {x: 55, y: 50}
+  keyboardKeySpacing: {x: 15, y: 15}
+  keyboardFontSize: 20
   autoBuildUI: 1
   mainCanvas: {fileID: 1876114200}
   bulbImage: {fileID: 730820221}
@@ -2909,7 +3311,7 @@ MonoBehaviour:
   - {fileID: 1446022921}
   wordSlotsContainer: {fileID: 1388484726}
   keyboardContainer: {fileID: 1416423335}
-  hintButtonText: {fileID: 0}
+  hintButtonText: {fileID: 1072720539}
 --- !u!1 &1696048293
 GameObject:
   m_ObjectHideFlags: 0
